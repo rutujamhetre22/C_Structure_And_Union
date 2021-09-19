@@ -1,0 +1,20 @@
+//example of structure
+
+#include<stdio.h>  
+#include <string.h>    
+struct employee{
+    int id;
+    char name[10];
+}e1;
+int main(){    
+    e1.id=22;
+    strcpy(e1.name,"rutuja");
+    printf("employee id is %d\n",e1.id);
+    printf("employee name is %s",e1.name);
+    return 0;
+
+}    
+
+********output*********
+employee id is 22
+employee name is rutuja
